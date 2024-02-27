@@ -30,10 +30,10 @@ namespace Converter
             if (txtAmount.Text.Length >= 1)
             {
                 double amount = Convert.ToDouble(txtAmount.Text);
-                usd.Content = amount * 98;
-                eur.Content = amount * 101;
-                cny.Content = amount * 12;
-                gbp.Content = amount * 116;
+                usd.Content = amount * 0.010864;
+                eur.Content = amount * 0.010008;
+                cny.Content = amount * 0.078519;
+                gbp.Content = amount * 0.008566;
             } 
         }
     }
