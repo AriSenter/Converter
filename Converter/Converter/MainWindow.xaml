@@ -1,0 +1,23 @@
+﻿<Window x:Class="Converter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Converter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Enter amount:"/>
+            <TextBox x:Name="txtAmount" Margin="0 5"/>
+            <TextBlock Text="Select currency:"/>
+            <ComboBox x:Name="cmbCurrency" Margin="0 5">
+                <ComboBoxItem Content="USD"/>
+                <ComboBoxItem Content="EUR"/>
+                <ComboBoxItem Content="BYN"/>
+            </ComboBox>
+            <Button Content="Convert" Click="Convert_Click" Margin="0 10"/>
+            <TextBlock x:Name="txtResult"/>
+        </StackPanel>
+    </Grid>
+</Window>

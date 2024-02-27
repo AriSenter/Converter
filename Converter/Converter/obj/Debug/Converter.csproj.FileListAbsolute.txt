@@ -1,0 +1,16 @@
+C:\Users\ivaaa\Desktop\Converter\Converter\bin\Debug\Converter.exe.config
+C:\Users\ivaaa\Desktop\Converter\Converter\bin\Debug\Converter.exe
+C:\Users\ivaaa\Desktop\Converter\Converter\bin\Debug\Converter.pdb
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\Converter.csproj.AssemblyReference.cache
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\Converter.csproj.SuggestedBindingRedirects.cache
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\MainWindow.g.cs
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\App.g.cs
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\Converter_MarkupCompile.cache
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\Converter_MarkupCompile.lref
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\MainWindow.baml
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\Converter.g.resources
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\Converter.Properties.Resources.resources
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\Converter.csproj.GenerateResource.cache
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\Converter.csproj.CoreCompileInputs.cache
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\Converter.exe
+C:\Users\ivaaa\Desktop\Converter\Converter\obj\Debug\Converter.pdb
