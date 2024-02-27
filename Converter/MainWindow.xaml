@@ -1,0 +1,27 @@
+﻿<Window x:Class="Converter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Converter"
+        mc:Ignorable="d"
+        Title="Конвертер валют" Height="468" Width="800" Background="#FFD4D4D4">
+    <Grid>
+        <TextBox x:Name="txtAmount" Margin="311,26,52,317" FontSize="48" TextChanged="Kurs"/>
+        <Image HorizontalAlignment="Left" Height="33" Margin="23,49,0,0" VerticalAlignment="Top" Width="49" Source="/Без названия.png"/>
+        <Label Content="Rub" HorizontalAlignment="Left" Margin="77,36,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Black"/>
+        <Image HorizontalAlignment="Left" Height="33" Margin="23,170,0,0" VerticalAlignment="Top" Width="49" Source="/flag_usa_enl.jpg"/>
+        <Label Content="Usd" HorizontalAlignment="Left" Margin="77,157,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Black"/>
+        <Image HorizontalAlignment="Left" Height="33" Margin="23,234,0,0" VerticalAlignment="Top" Width="49" Source="/png-transparent-eu-european-union-flag-icon.png"/>
+        <Label Content="Eur" HorizontalAlignment="Left" Margin="77,221,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Black"/>
+        <Image HorizontalAlignment="Left" Height="33" Margin="23,297,0,0" VerticalAlignment="Top" Width="49" Source="/flag_kitaya_china_Abali.ru_.png"/>
+        <Label Content="Cny" HorizontalAlignment="Left" Margin="77,284,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Black"/>
+        <Image HorizontalAlignment="Left" Height="33" Margin="23,360,0,0" VerticalAlignment="Top" Width="49" Source="/flag_en_big.jpg"/>
+        <Label Content="Gbp" HorizontalAlignment="Left" Margin="77,347,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Black"/>
+        <Label x:Name="usd" Content="" HorizontalAlignment="Left" Margin="311,157,0,0" VerticalAlignment="Top" FontSize="36" Width="437"/>
+        <Label x:Name="eur" Content="" HorizontalAlignment="Left" Margin="311,221,0,0" VerticalAlignment="Top" FontSize="36" Width="437"/>
+        <Label x:Name="cny" Content="" HorizontalAlignment="Left" Margin="311,284,0,0" VerticalAlignment="Top" FontSize="36" Width="437"/>
+        <Label x:Name="gbp" Content="" HorizontalAlignment="Left" Margin="311,347,0,0" VerticalAlignment="Top" FontSize="36" Width="437"/>
+
+    </Grid>
+</Window>
