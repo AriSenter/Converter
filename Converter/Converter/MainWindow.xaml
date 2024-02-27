@@ -5,19 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Converter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="616" Width="959">
     <Grid>
-        <StackPanel Margin="10">
-            <TextBlock Text="Enter amount:"/>
-            <TextBox x:Name="txtAmount" Margin="0 5"/>
-            <TextBlock Text="Select currency:"/>
-            <ComboBox x:Name="cmbCurrency" Margin="0 5">
-                <ComboBoxItem Content="USD"/>
-                <ComboBoxItem Content="EUR"/>
-                <ComboBoxItem Content="BYN"/>
-            </ComboBox>
-            <Button Content="Convert" Click="Convert_Click" Margin="0 10"/>
-            <TextBlock x:Name="txtResult"/>
-        </StackPanel>
+        <TextBlock Text="Сумма для перевода:" Width="124" Margin="76,40,759,536"/>
+        <TextBox x:Name="textBox1" Margin="205,40,679,540" Text="1" Width="75" Height="20"/>
+        <TextBlock Text="из:" Margin="285,40,644,541"/>
+        <Button Content="Конвертировать" Click="Convert_Click" Width="122" Margin="418,167,419,411"/>
+        <TextBlock Text="Или" Margin="401,40,523,540" RenderTransformOrigin="0.429,0.202"/>
+        <TextBox x:Name="textBox2" Margin="441,39,443,541" Width="75" Height="20"/>
+        <TextBlock Text="Или" Margin="627,40,301,539"/>
+        <TextBox x:Name="textBox3"  Width="75" Height="20" Margin="663,42,221,538"/>
+        <WebBrowser x:Name="web" Margin="78,233,54,42" Cursor="No" IsEnabled="False" RenderTransformOrigin="0.5,0.5">
+            <WebBrowser.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.049"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </WebBrowser.RenderTransform>
+        </WebBrowser>
+        <ComboBox Name="cmb1" HorizontalAlignment="Left" Margin="315,40,0,0" VerticalAlignment="Top" Width="71">
+            <ComboBoxItem Content="RUB"/>
+            <ComboBoxItem Content="USD"/>
+            <ComboBoxItem Content="UAH"/>
+        </ComboBox>
+        <ComboBox Name="cmb2" HorizontalAlignment="Left" Margin="542,40,0,0" VerticalAlignment="Top" Width="71">
+            <ComboBoxItem Content="RUB"/>
+            <ComboBoxItem Content="USD"/>
+            <ComboBoxItem Content="UAH"/>
+        </ComboBox>
     </Grid>
 </Window>
